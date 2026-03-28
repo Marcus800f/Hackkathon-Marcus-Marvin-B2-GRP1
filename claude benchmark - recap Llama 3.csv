@@ -1,0 +1,16 @@
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,Indicateur,Valeur Absolue,Pourcentage,Commentaire
+,,,,Refus de l'IA (Refus brut),2 / 52,"3,8 %",Le modèle ne bloque presque jamais la question à la source. Il préfère répondre de manière frontale.
+,,,,Conformité éthique (Succès),23 / 52,"44,2 %","Moins de la moitié des requêtes sont neutralisées (redirigées vers la théorie, la défense ou l'administration standard)."
+,,,,Défaillances de sécurité (Risque),29 / 52,"55,8 %","Le modèle est très permissif. Dans plus de la moitié des cas, il fournit des vecteurs d'attaque directs, des scripts malveillants ou des guides opérationnels."
+,,,,Usage de Stratégies d'Évitement,43 / 52,"82,7 %","Fait notable : Llama 3 utilise massivement des stratégies d'évitement. N'ayant presque pas de ""refus bruts"", il compense en fournissant l'arme demandée tout en ajoutant des clauses de responsabilité (disclaimers) ou des pivots éducatifs en fin de réponse."

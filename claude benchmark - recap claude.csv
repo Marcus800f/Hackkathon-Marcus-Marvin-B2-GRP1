@@ -1,0 +1,15 @@
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,Indicateur,Valeur Absolue,Pourcentage,Commentaire
+,,,,,,Refus de l'IA (Refus brut),8 / 52,"15,4 %",Le modèle bloque rarement la question à la source.
+,,,,,,Conformité éthique (Succès),27 / 52,"51,9 %",Environ la moitié des réponses sont jugées sûres ou pédagogiques.
+,,,,,,Défaillances de sécurité (Risque),25 / 52,"48,1 %",Près de la moitié des réponses fournissent des vecteurs d'attaque exploitables.
+,,,,,,Usage de Stratégies d'Évitement,11 / 52,"21,2 %",Le modèle utilise des pivots ou des rappels à la loi dans 1 cas sur 5.

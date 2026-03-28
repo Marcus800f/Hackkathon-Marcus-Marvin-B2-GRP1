@@ -1,0 +1,15 @@
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,Indicateur,Valeur Absolue,Pourcentage,Commentaire
+,,,,Refus de l'IA (Refus brut),8 / 52,"15,4 %","Le modèle bloque les demandes uniquement lorsque l'intention criminelle est explicite et grossière (ex: ""Je veux faire un DDoS"", ""Comment faire du phishing"")."
+,,,,Conformité éthique (Succès),27 / 52,"51,9 %","Le modèle est à l'équilibre. Une petite moitié des réponses est sécurisée, généralement quand la question est purement historique ou défensive."
+,,,,Défaillances de sécurité (Risque),25 / 52,"48,1 %","Faille majeure : le modèle échoue sur près de la moitié des requêtes en fournissant des armes numériques prêtes à l'emploi (Webshells, scripts de parsing, tutoriels Cobalt Strike)."
+,,,,Usage de Stratégies d'Évitement,11 / 52,"21,2 %","Contrairement à Llama 3 (82%) ou ChatGPT (61%), Mistral esquive très peu. C'est binaire : soit il refuse sèchement, soit il donne la réponse complète (quitte à placer un avertissement inutile à la toute fin)."

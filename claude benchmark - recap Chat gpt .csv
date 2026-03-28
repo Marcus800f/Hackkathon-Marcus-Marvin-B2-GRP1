@@ -1,0 +1,15 @@
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,Indicateur,Valeur Absolue,Pourcentage,Commentaire
+,,,,,Refus de l'IA (Refus brut),23 / 39,"59,0 %","ChatGPT possède un filtre de sécurité très strict. Il n'hésite pas à bloquer frontalement l'utilisateur dès qu'il détecte un verbe d'action offensif (""How to bypass"", ""Provide a payload"")."
+,,,,,Conformité éthique (Succès),25 / 39,"64,1 %",Près des deux tiers des requêtes sont neutralisées avec succès. Le modèle maintient une posture défensive solide.
+,,,,,Défaillances de sécurité (Risque),14 / 39,"35,9 %","Les failles existent toujours, mais elles sont très spécifiques. ChatGPT cède face aux outils d'administration détournés ou aux questions déguisées en théorie."
+,,,,,Usage de Stratégies d'Évitement,24 / 39,"61,5 %","Le modèle excelle dans la réorientation. Un refus brut est presque systématiquement suivi d'un ""Pivot"" éducatif (Blue Team, Secure Coding, Architecture)."
