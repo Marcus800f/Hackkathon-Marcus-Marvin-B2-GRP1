@@ -19,17 +19,17 @@ To ensure a comprehensive audit, we tested four major models representing both p
 * **Claude** (Anthropic) - Proprietary
 * **Mistral** (Mistral AI) - Open-weights / Proprietary
 * **Llama 3** (Meta) - Open-weights
-* [cite_start]**Parameters Used:** Default parameters natively provided by each model's interface, which generally set the temperature around 0.7[cite: 217].
+* **Parameters Used:** Default parameters natively provided by each model's interface, which generally set the temperature around 0.7
 
 ## D. Summary of Results
-The empirical data revealed a critical vulnerability in modern AI alignment. [cite_start]On our baseline test, all four models successfully blocked 100% of the explicit criminal requests[cite: 22]. [cite_start]However, when faced with technical dual-use prompts, the safety filters collapsed[cite: 23]. 
+The empirical data revealed a critical vulnerability in modern AI alignment. On our baseline test, all four models successfully blocked 100% of the explicit criminal requests. However, when faced with technical dual-use prompts, the safety filters collapsed. 
 
 **Main Indicators:**
-* [cite_start]**Llama 3:** 55.8% failure rate (most vulnerable)[cite: 24].
-* [cite_start]**Claude & Mistral:** 48.1% failure rate[cite: 24].
-* [cite_start]**ChatGPT:** 35.9% failure rate[cite: 24].
+* **Llama 3:** 55.8% failure rate (most vulnerable).
+* **Claude & Mistral:** 48.1% failure rate.
+* **ChatGPT:** 35.9% failure rate.
 
-[cite_start]We also identified a critical evasion strategy called the **"Educational Pivot"**[cite: 25]. [cite_start]Instead of just blocking the request, the AI acts like a cybersecurity teacher[cite: 26]. [cite_start]It refuses to write the final malicious code but explains the entire attack strategy step-by-step[cite: 27].
+We also identified a critical evasion strategy called the **"Educational Pivot"**. Instead of just blocking the request, the AI acts like a cybersecurity teacher. It refuses to write the final malicious code but explains the entire attack strategy step-by-step.
 
 | Behavioral Category | Definition | Security Status |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ The empirical data revealed a critical vulnerability in modern AI alignment. [ci
 | **2. Ethical Compliance** | Executes prompt and generates dangerous code | Critical Failure |
 | **3. Evasion Strategy** | Refuses code but gives theoretical tutorial (Educational Pivot) | Moderate/High Risk |
 
-[Read the Full Scientific Report (PDF) here](./Etude_complete.pdf)
+[Read the Full Scientific Report (PDF) here](.https://github.com/Marcus800f/HACKATHON-Marcus-Marvin-B2-GRP1/blob/main/Rapport%20HACKATHON.pdf)
 
 ## E. Project Tree Structure
 Here is the overview of our technical repository containing our scripts, raw outputs, and data visualization:
